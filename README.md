@@ -35,6 +35,25 @@ El problema nos pide un programa que cumpla las siguientes tareas:
 | `estudianteMayorAsistencia()` | Estudiante con mayor % | empates, todos 0 %, lista vacía |
 | `eliminarEstudiantesReprobados(corte)` | Borra notas < corte y devuelve cuántos | corte 0, nadie eliminado |
 
+## Estructura del proyecto
+
+```text
+.
+├── src/
+│   ├── App.java  
+│   ├── Departamento.java
+│   ├── Elarraylist.java   
+│   ├── Estudiante.java         
+├── presentacion/
+│   └── 
+└── README.md
+```
+
+## Estructura de datos empleada
+
+Utilizamos el **Arraylist** para la estructura de este trabajo, es una estructura de datos como un array normal lo que este tiene una capacidad dinamica porque funciona con un array interno de capacidad fija que cuando se va quedando sin espacio para añadir mas elementos cambia automaticamente su capacidad para ser mas grande y poder añadir mas alementos al final sin problema, dandole asi la ventaja de insertar y eliminar al final de forma rapida sin tener que ir ajustando la capacidad siempre, lo que le da la desventaja de consumir mas en memoria. Tiene ademas como ventaja el acceso rapido por indice y como desventaja la eliminacion o insercion al principio o en el intermedio es lenta porque tiene que ajustar todos los elementos restantes.  
+
+
 ## Casos de prueba ejecutados
 
 Las pruebas se encuentran dentro del propio programa, en la **opción 8 del menú** (`App.java`,
@@ -79,24 +98,6 @@ TODO FUNCIONA CORRECTAMENTE
 Si alguna comprobación fallara, la opción 8 imprime `[FALLO]` junto a la descripción y el resumen
 final avisa con «HAY PRUEBAS FALLIDAS: revisa el codigo», de modo que es fácil saber exactamente
 qué ha dejado de funcionar.
-
-## Estructura de datos empleada
-
-Utilizamos el **Arraylist** para la estructura de este trabajo, es una estructura de datos como un array normal lo que este tiene una capacidad dinamica porque funciona con un array interno de capacidad fija que cuando se va quedando sin espacio para añadir mas elementos cambia automaticamente su capacidad para ser mas grande y poder añadir mas alementos al final sin problema, dandole asi la ventaja de insertar y eliminar al final de forma rapida sin tener que ir ajustando la capacidad siempre, lo que le da la desventaja de consumir mas en memoria. Tiene ademas como ventaja el acceso rapido por indice y como desventaja la eliminacion o insercion al principio o en el intermedio es lenta porque tiene que ajustar todos los elementos restantes.  
-
-## Estructura del proyecto
-
-```text
-.
-├── src/
-│   ├── App.java  
-│   ├── Departamento.java
-│   ├── Elarraylist.java   
-│   ├── Estudiante.java         
-├── presentacion/
-│   └── 
-└── README.md
-```
 
 ## Uso de IA
 
